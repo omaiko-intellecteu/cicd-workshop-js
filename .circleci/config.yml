@@ -81,7 +81,7 @@ jobs:
               --header 'Content-Type: application/json' \
               --data-raw '{
                 "circleci-build-url": "'$CIRCLE_BUILD_URL'"
-              }'   
+              }'
 
 workflows:
   node-test-and-deploy:
